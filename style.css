@@ -22,19 +22,19 @@ body{
 }
 
 .navbar-brand img{
-    width: 40px;
+    width: 20px;
 }
 
 .navbar-brand span{
     font-size: 17px;
-    color: rgb(112, 62, 160);
+    color: rgb(0, 0, 0);
     font-weight: 500;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 }
 
 form .btn{
-    background-color: rgb(52, 0, 121);
+    background-color: rgb(58, 58, 58);
     color: #fff;
     outline: none !important;
 
@@ -79,7 +79,7 @@ form .btn{
 }
 
 #overview .text h1{
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -92,7 +92,7 @@ form .btn{
 
 #overview .text a{
   color: #fff;
-  background-color: rgb(65, 30, 122);
+  background-color: rgb(58, 58, 58);
   padding: 8px 12px;
   text-decoration: none;
   border-radius: 5px;
@@ -140,7 +140,7 @@ form .btn{
 #cards .box a{
  text-decoration: none;
  color: #fff;
- background-color: rgb(65, 30, 122);
+ background-color: rgb(58, 58, 58);
  font-size: 12px;
  padding: 7px 10px;
  border-radius: 5px;
@@ -152,7 +152,7 @@ form .btn{
 
 #cards .box ul li i{
   color: #fff;
-  background-color: rgb(65, 30, 122);
+  background-color: rgb(58, 58, 58);
   padding: 15px;
   border-radius: 50px;
   position: absolute;
@@ -166,7 +166,7 @@ form .btn{
 
 #cards .box:hover ul li i{
   background-color: #fff;
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
 }
 
 /* Why-Us Section------------------------------------------------------------------ */
@@ -184,7 +184,7 @@ form .btn{
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #3c096c;
+  color: rgb(58, 58, 58);
 }
 .why-us .content h4 {
   font-size: 20px;
@@ -227,12 +227,12 @@ form .btn{
   font-weight: 500;
   padding-right: 30px;
   outline: none;
-  color: #0b2341;
+  color: rgb(58, 58, 58);
   cursor: pointer;
   text-decoration: none;
 }
 .why-us .accordion-list span {
-  color: #3c096c;
+  color: rgb(58, 58, 58);
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
@@ -254,7 +254,7 @@ form .btn{
   color: black;
 }
 .why-us .accordion-list a.collapsed:hover {
-  color: #3c096c;
+  color: rgb(0, 0, 0);
 }
 .why-us .accordion-list a.collapsed .icon-show {
   display: inline-block;
@@ -310,7 +310,7 @@ form .btn{
   background: rgba(198, 16, 0, 0);
 }
 .why-us .play-btn:hover::after {
-  border-left: 15px solid #3c096c;
+  border-left: 15px solid rgb(58, 58, 58);
   transform: scale(20);
 }
 .why-us .play-btn:hover::before {
@@ -384,7 +384,7 @@ form .btn{
 }
 
 #title-2 .text h1{
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -419,17 +419,17 @@ form .btn{
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgb(65, 30, 122);
+  background-color: rgb(58, 58, 58);
   padding: 15px 20px;
   color: #fff;
   font-size: 25px;
   border-radius: 10px;
-  box-shadow: 7px 7px 1px rgb(186, 156, 235);
+  box-shadow: 7px 7px 1px rgb(134, 134, 134);
 }
 
 #services .box h1{
   font-size: 25px;
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
 }
 
 #services .box p{
@@ -438,12 +438,12 @@ form .btn{
 }
 
 #services .box:hover{
-  background-color: rgb(65, 30, 122);
+  background-color: rgb(58, 58, 58);
 }
 
 #services .box:hover ul li {
   background-color: #fff;
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
 }
 
 #services .box:hover h1{
@@ -468,7 +468,7 @@ form .btn{
 }
 
 #title-3 .text h1{
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -533,14 +533,14 @@ form .btn{
 }
 
 .section-title p{
-  color: rgb(65, 30, 122);
+  color: rgb(58, 58, 58);
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .contact .info-box {
-  color: #0b2341;
+  color: rgb(58, 58, 58);
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
@@ -548,10 +548,9 @@ form .btn{
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #3c096c;
+  color: rgb(58, 58, 58);
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #fbdad2;
 }
 .contact .info-box h3 {
   font-size: 20px;
@@ -574,7 +573,7 @@ form .btn{
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #3c096c;
+  background: rgb(58, 58, 58);
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -624,7 +623,7 @@ form .btn{
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #3c096c;
+  background: rgb(58, 58, 58);
   border: 0;
   padding: 10px 30px;
   border-radius: 4px;
@@ -659,7 +658,7 @@ form .btn{
 
 
 #footer {
-  background: #17022b;
+  background: rgb(58, 58, 58);
   padding: 0 0 0px 0;
   color: #fff;
   font-size: 14px;
@@ -669,8 +668,8 @@ form .btn{
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #3c096c;
-  border-top: 4px solid #9020f9;
+  background: rgb(95, 95, 95);
+  border-top: 4px solid rgb(199, 199, 199);
   text-align: center;
   padding: 30px 20px;
 }
@@ -763,7 +762,7 @@ form .btn{
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #3c096c;
+  background: rgb(95, 95, 95);
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -778,8 +777,13 @@ form .btn{
   
  
 }
+
+#footer .credits a{
+  color: #fff !important;
+}
+
  #footer .copyrights{
-  background-color:#150020;
+  background-color:rgb(32, 32, 32);
 
  
   height:100% ;
