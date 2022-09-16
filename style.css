@@ -425,6 +425,8 @@ form .btn{
   font-size: 25px;
   border-radius: 10px;
   box-shadow: 7px 7px 1px rgb(134, 134, 134);
+  transition: all .5s ease-in-out;
+
 }
 
 #services .box h1{
@@ -453,6 +455,7 @@ form .btn{
 #services .box:hover p{
   color: #fff;
 }
+
 
 
 
@@ -487,6 +490,8 @@ form .btn{
   font-size: 12px;
   font-weight: 600;
 }
+
+
 
 
 
@@ -839,12 +844,6 @@ form .btn{
     margin: -20px 0 30px 0;
   }
 }
-
-
-
-
-
-
 
 
 
