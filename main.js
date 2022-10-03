@@ -11,3 +11,11 @@ readMore.addEventListener('click', (e)=>{
         readMore.innerHTML = 'Read More';
     }
 })
+
+
+// PRE LOADING OF LANDING PAGRE
+var preloader = document.getElementById('loader-wrapper');
+
+function myFunction(){
+    preloader.style.display = 'none';
+}
