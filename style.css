@@ -41,7 +41,8 @@ form .btn{
 }
 
 .carousel-inner .carousel-item{
-    height: 590px;
+    height: 100vh;
+    width: 100vw;
     background-color: #777;
     background-position: center;
     background-size: cover;
@@ -90,12 +91,22 @@ form .btn{
   margin-bottom: 30px;
 }
 
-#overview .text a{
+#overview .text .read-more-btn{
   color: #fff;
   background-color: rgb(58, 58, 58);
   padding: 8px 12px;
   text-decoration: none;
   border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+#overview .more-text{
+  display: none;
+}
+
+#overview .text.show-more .more-text{
+  display: inline;
 }
 
 #cards{
